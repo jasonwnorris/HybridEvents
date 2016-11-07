@@ -1,2 +1,2 @@
-# HybridInput
-A simple input manager utilizing C++11 and SDL2.
+# HybridEvents
+A simple event manager utilizing C++11 and SDL2.

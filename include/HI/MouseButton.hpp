@@ -6,7 +6,7 @@
 // SDL2 Includes
 #include <SDL2/SDL.h>
 
-namespace HI
+namespace HE
 {
   enum class MouseButton : unsigned char
   {

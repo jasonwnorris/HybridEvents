@@ -1,11 +1,11 @@
 // EventManager.cpp
 
-// HI Includes
-#include <HI/EventManager.hpp>
+// HE Includes
+#include <HE/EventManager.hpp>
 // SDL2 Includes
 #include <SDL2/SDL.h>
 
-namespace HI
+namespace HE
 {
   bool EventManager::Initialize()
   {

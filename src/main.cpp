@@ -1,7 +1,7 @@
 // main.cpp
 
-// HI Includes
-#include <HI/EventManager.hpp>
+// HE Includes
+#include <HE/EventManager.hpp>
 
 bool g_IsRunning = true;
 SDL_Rect g_Rectangle;

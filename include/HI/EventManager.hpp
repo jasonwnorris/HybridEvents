@@ -3,19 +3,19 @@
 #ifndef __HI_EVENTMANAGER_HPP__
 #define __HI_EVENTMANAGER_HPP__
 
-// HI Includes
-#include <HI/ControllerAxis.hpp>
-#include <HI/ControllerButton.hpp>
-#include <HI/Key.hpp>
-#include <HI/KeyMods.hpp>
-#include <HI/MouseButton.hpp>
-#include <HI/PlayerIndex.hpp>
+// HE Includes
+#include <HE/ControllerAxis.hpp>
+#include <HE/ControllerButton.hpp>
+#include <HE/Key.hpp>
+#include <HE/KeyMods.hpp>
+#include <HE/MouseButton.hpp>
+#include <HE/PlayerIndex.hpp>
 // HD Includes
 #include <HD/Delegate.hpp>
 // STL Includes
 #include <string>
 
-namespace HI
+namespace HE
 {
   class EventManager
   {

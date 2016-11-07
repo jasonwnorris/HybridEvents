@@ -9,7 +9,7 @@ namespace HI
 {
   bool EventManager::Initialize()
   {
-    if (SDL_Init(SDL_INIT_EVENTS) < 0)
+    if (SDL_InitSubSystem(SDL_INIT_EVENTS) < 0)
     {
       SDL_Log("Failed to initialize SDL events: %s", SDL_GetError());
       return false;
@@ -20,7 +20,7 @@ namespace HI
 
   void EventManager::Finalize()
   {
-    SDL_Quit();
+    SDL_QuitSubSystem(SDL_INIT_EVENTS);
   }
 
   void EventManager::Poll()
